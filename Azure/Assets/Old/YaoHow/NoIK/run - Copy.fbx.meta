@@ -1,0 +1,315 @@
+fileFormatVersion: 2
+guid: f770d34ba746d42ea8b55b90cdc9e88d
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 1
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: idle(Clone)
+      parentName: 
+      position: {x: -0.026367083, y: 0.8923806, z: 0.470038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: pCube1
+      parentName: idle(Clone)
+      position: {x: -4.2260995, y: 71.58804, z: -56.030853}
+      rotation: {x: -0.09127528, y: -0.0666649, z: -0.005704716, w: 0.99357545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube3
+      parentName: idle(Clone)
+      position: {x: -0.35082293, y: 24.345833, z: -60.85965}
+      rotation: {x: -0.025294458, y: -0.061860066, z: 0.043334104, w: 0.99682283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube2
+      parentName: pCube3
+      position: {x: 8.932278e-16, y: 1.2321625, z: 0.0000019073486}
+      rotation: {x: 0.030299267, y: -0.060053114, z: 0.0018236986, w: 0.9977336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube5
+      parentName: pCube2
+      position: {x: 0.71130276, y: 30.61248, z: 7.737779}
+      rotation: {x: -0.101825796, y: 0.057729516, z: -0.04232189, w: 0.9922236}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube4
+      parentName: pCube3
+      position: {x: 1.4647722, y: -21.024956, z: -1.8713617}
+      rotation: {x: 0.004605916, y: -0.07110962, z: -0.06447229, w: 0.9953721}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube17
+      parentName: idle(Clone)
+      position: {x: -8.948823, y: -82.42304, z: -41.596447}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.15989442, y: 0.0734312, z: 0.23636182}
+    - name: pCube6
+      parentName: idle(Clone)
+      position: {x: -6.2140064, y: -29.152464, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube7
+      parentName: idle(Clone)
+      position: {x: 2.6367083, y: -55.48453, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube11
+      parentName: idle(Clone)
+      position: {x: -20.797358, y: -7.17107, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1556063, y: 0.22149122, z: 0.35729092}
+    - name: pCube9
+      parentName: idle(Clone)
+      position: {x: -20.797358, y: 11.470886, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.5, z: 0.3091805}
+    - name: pCube24
+      parentName: idle(Clone)
+      position: {x: -16.458363, y: 57.27119, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube27
+      parentName: pCube24
+      position: {x: -5.426016, y: -8.245138, z: -17.366531}
+      rotation: {x: -0.08199305, y: -0.017759655, z: -0.023415659, w: 0.99619955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube29
+      parentName: pCube27
+      position: {x: -4.338995, y: -32.360886, z: 1.7550406e-12}
+      rotation: {x: 0.6288407, y: 0.0085165305, z: 0.73742235, w: -0.24636418}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube31
+      parentName: pCube29
+      position: {x: 0.000005722046, y: -26.12796, z: 0}
+      rotation: {x: -0.3028202, y: 0.40537113, z: -0.2256839, w: 0.83249086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube33
+      parentName: pCube31
+      position: {x: 0.113464, y: -4.551811, z: -0.14917755}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform1
+      parentName: pCube24
+      position: {x: 19.095072, y: -146.50925, z: 1.7548124e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube25
+      parentName: idle(Clone)
+      position: {x: -20.797358, y: 24.910303, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform2
+      parentName: pCube25
+      position: {x: 23.434067, y: -114.14836, z: -1.1368684e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube26
+      parentName: idle(Clone)
+      position: {x: -20.797352, y: -1.2176564, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform3
+      parentName: pCube26
+      position: {x: 23.434061, y: -88.0204, z: 9.7699626e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube28
+      parentName: idle(Clone)
+      position: {x: 9.908324, y: 55.711517, z: -49.903107}
+      rotation: {x: 0.09335283, y: -0.11496468, z: 0.36845478, w: 0.9177742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube30
+      parentName: pCube28
+      position: {x: 4.338995, y: -32.360886, z: 0}
+      rotation: {x: -0.17529662, y: 0.10397794, z: -0.6104193, w: 0.7654071}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube32
+      parentName: pCube30
+      position: {x: -0.0000038146973, y: -26.12796, z: -9.592327e-14}
+      rotation: {x: -0.019204572, y: -0.006737434, z: 0.33097488, w: 0.9434201}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube34
+      parentName: idle(Clone)
+      position: {x: -6.5057707, y: -32.657578, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.17240743, y: 0.36666667, z: 0.22000438}
+    - name: transform4
+      parentName: pCube34
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube35
+      parentName: idle(Clone)
+      position: {x: -6.5057707, y: -59.15376, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.17240743, y: 0.36666667, z: 0.22000438}
+    - name: transform5
+      parentName: pCube35
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube36
+      parentName: idle(Clone)
+      position: {x: -8.425322, y: -78.34553, z: -49.308388}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1514733, y: 0.046026807, z: 0.25937933}
+    - name: transform6
+      parentName: pCube36
+      position: {x: -0.0000010864586, y: -49.999985, z: 29.170156}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube38
+      parentName: idle(Clone)
+      position: {x: 11.779187, y: -14.324239, z: -63.781338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube40
+      parentName: idle(Clone)
+      position: {x: -12.494764, y: -42.318897, z: -45.679394}
+      rotation: {x: 0.061218318, y: -0.10828355, z: 0.019017104, w: 0.9920511}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube42
+      parentName: idle(Clone)
+      position: {x: 13.698738, y: -78.345535, z: -56.64159}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube43
+      parentName: idle(Clone)
+      position: {x: -12.090538, y: -78.345535, z: -52.23818}
+      rotation: {x: 0, y: -0.09252304, z: -0, w: 0.99571055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube44
+      parentName: idle(Clone)
+      position: {x: 12.437478, y: -40.82042, z: -54.337}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube45
+      parentName: idle(Clone)
+      position: {x: -8.709057, y: -18.434835, z: -61.53098}
+      rotation: {x: -0.13314041, y: -0.14088441, z: -0.014281842, w: 0.9809288}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 2ce2a3deed72e4725ad9127a5a107ccd, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

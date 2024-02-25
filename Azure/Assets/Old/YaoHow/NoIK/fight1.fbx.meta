@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 8f68aba72c50846559ecb43b72cc5f66
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: fight1(Clone)
+      parentName: 
+      position: {x: -0.026367083, y: 0.8923806, z: 0.470038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: pCube1
+      parentName: fight1(Clone)
+      position: {x: -1.3183515, y: 62.916397, z: -27.167076}
+      rotation: {x: 0.17091121, y: -0.34771392, z: -0.037007753, w: 0.92114866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube3
+      parentName: fight1(Clone)
+      position: {x: 2.6367083, y: 24.460737, z: -54.935467}
+      rotation: {x: 0.116821304, y: -0.12619922, z: -0.014967442, w: 0.9849886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube2
+      parentName: pCube3
+      position: {x: 8.932278e-16, y: 1.2321625, z: 0.0000019073486}
+      rotation: {x: 0.0028244779, y: -0.0031534582, z: 0.01612243, w: 0.9998611}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube5
+      parentName: pCube2
+      position: {x: 0.71130276, y: 30.61248, z: 7.737779}
+      rotation: {x: -0.10125936, y: -0.06873307, z: 0.0070127547, w: 0.99245816}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube4
+      parentName: pCube3
+      position: {x: 2.1131277, y: -26.257463, z: -1.307281}
+      rotation: {x: -0.17296231, y: 0, z: -0, w: 0.9849284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube17
+      parentName: fight1(Clone)
+      position: {x: -8.948823, y: -82.42304, z: -41.596447}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.15989442, y: 0.0734312, z: 0.23636182}
+    - name: pCube6
+      parentName: fight1(Clone)
+      position: {x: -6.2140064, y: -29.152464, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube7
+      parentName: fight1(Clone)
+      position: {x: 2.6367083, y: -55.48453, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube11
+      parentName: fight1(Clone)
+      position: {x: -20.797358, y: -7.17107, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1556063, y: 0.22149122, z: 0.35729092}
+    - name: pCube9
+      parentName: fight1(Clone)
+      position: {x: -20.797358, y: 11.470886, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.5, z: 0.3091805}
+    - name: pCube24
+      parentName: fight1(Clone)
+      position: {x: -16.458363, y: 57.27119, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube27
+      parentName: pCube24
+      position: {x: -2.3937516, y: -8.2378645, z: 8.640438}
+      rotation: {x: -0, y: -0, z: -0.06754611, w: 0.9977162}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube29
+      parentName: pCube27
+      position: {x: -4.338995, y: -32.360886, z: 1.7550406e-12}
+      rotation: {x: -0.09421052, y: 0.49706215, z: 0.051278055, w: 0.8610599}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube31
+      parentName: pCube29
+      position: {x: 0.000005722046, y: -26.12796, z: 0}
+      rotation: {x: -0.17454453, y: 0.1896587, z: -0.4424132, w: 0.8589728}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube33
+      parentName: pCube31
+      position: {x: 0.113464, y: -4.551811, z: -0.14917755}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform1
+      parentName: pCube24
+      position: {x: 19.095072, y: -146.50925, z: 1.7548124e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube25
+      parentName: fight1(Clone)
+      position: {x: -20.797358, y: 24.910303, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform2
+      parentName: pCube25
+      position: {x: 23.434067, y: -114.14836, z: -1.1368684e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube26
+      parentName: fight1(Clone)
+      position: {x: -20.797352, y: -1.2176564, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform3
+      parentName: pCube26
+      position: {x: 23.434061, y: -88.0204, z: 9.7699626e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube28
+      parentName: fight1(Clone)
+      position: {x: 17.372383, y: 46.593052, z: -31.605442}
+      rotation: {x: 0.2987532, y: -0.27874538, z: 0.37040147, w: 0.8341765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube30
+      parentName: pCube28
+      position: {x: 4.338995, y: -32.360886, z: 0}
+      rotation: {x: -0.61507285, y: 0, z: -0, w: 0.78847027}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube32
+      parentName: pCube30
+      position: {x: -0.0000038146973, y: -26.12796, z: -9.592327e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube34
+      parentName: fight1(Clone)
+      position: {x: -6.5057707, y: -32.657578, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.17240743, y: 0.36666667, z: 0.22000438}
+    - name: transform4
+      parentName: pCube34
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube35
+      parentName: fight1(Clone)
+      position: {x: -6.5057707, y: -59.15376, z: -47.0038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.17240743, y: 0.36666667, z: 0.22000438}
+    - name: transform5
+      parentName: pCube35
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube36
+      parentName: fight1(Clone)
+      position: {x: -8.425322, y: -78.34553, z: -49.308388}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1514733, y: 0.046026807, z: 0.25937933}
+    - name: transform6
+      parentName: pCube36
+      position: {x: -0.0000010864586, y: -49.999985, z: 29.170156}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube38
+      parentName: fight1(Clone)
+      position: {x: 15.003693, y: -23.232704, z: -61.364704}
+      rotation: {x: -0.24091403, y: -0.04225903, z: 0.16752553, w: 0.9550444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube40
+      parentName: fight1(Clone)
+      position: {x: -18.790545, y: -40.967503, z: -40.145622}
+      rotation: {x: 0.08577017, y: -0.08297459, z: 0.007168155, w: 0.99282795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube42
+      parentName: fight1(Clone)
+      position: {x: 19.311909, y: -78.345535, z: -55.49303}
+      rotation: {x: 0, y: 0.20251568, z: -0, w: 0.97927904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube43
+      parentName: fight1(Clone)
+      position: {x: -17.324219, y: -78.345535, z: -48.954212}
+      rotation: {x: 0, y: -0.04359179, z: -0, w: 0.9990494}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube44
+      parentName: fight1(Clone)
+      position: {x: 21.073906, y: -41.938133, z: -43.058983}
+      rotation: {x: 0.17365962, y: 0.10953551, z: 0.019439807, w: 0.97850215}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube45
+      parentName: fight1(Clone)
+      position: {x: -10.660243, y: -22.910633, z: -61.364704}
+      rotation: {x: -0.23879424, y: 0.052940585, z: -0.20986992, w: 0.946641}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
